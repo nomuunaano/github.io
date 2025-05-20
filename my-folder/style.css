@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  height: 100vh;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 20px;
+  vertical-align: top;
+}
+
+nav {
+  background-color: #007bff;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <title>Нүүр хуудас</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <table>
+    <tr>
+      <td colspan="2">
+        <nav>
+          <a href="index.html">Нүүр</a>
+          <a href="about.html">Миний тухай</a>
+          <a href="family.html">Гэр бүл</a>
+          <a href="friends.html">Найзууд</a>
+          <a href="contact.html">Холбоо барих</a>
+        </nav>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h2>Сайн байна уу!</h2>
+        <p>Энэ бол миний хувийн вэбсайтын нүүр хуудас юм.</p>
+      </td>
+      <td>
+        <img src="https://via.placeholder.com/300x200" alt="Нүүр зураг">
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
